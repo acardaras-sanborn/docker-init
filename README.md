@@ -7,7 +7,8 @@ Replace '"device=N"' with a specific GPU (device=0) or list of GPUs (device=2,3,
 
 ## Set up container
 Create symlinks in TensorRT container with:
-> wget -O - https://raw.githubusercontent.com/acardaras-sanborn/docker-init/main/tensorrt.sh | bash
+> wget -q https://raw.githubusercontent.com/acardaras-sanborn/docker-init/main/setup-sym.sh && . setup-sym.sh
+
 
 ## Create and activate virtual environment (optional)
 > python -m venv /workspace/my-venv --system-site-packages
