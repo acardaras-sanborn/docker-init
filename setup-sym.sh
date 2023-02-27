@@ -9,4 +9,4 @@ apt update
 apt install python3.8-venv
 
 # update path
-LD_LIBRARY_PATH="/usr/local/cuda/NsightSystems-cli-2022.5.1/target-linux-x64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
+export LD_LIBRARY_PATH="/usr/local/cuda/NsightSystems-cli-2022.5.1/target-linux-x64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
