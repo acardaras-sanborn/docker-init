@@ -12,4 +12,5 @@ Create symlinks in TensorRT container with:
 
 ## Create and activate virtual environment (optional)
 > python -m venv /workspace/my-venv --system-site-packages
+
 > source /workspace/my-venv/bin/activate
